@@ -4,21 +4,46 @@ export const styles = StyleSheet.create({
   card: {
     width: "100%",
     marginTop: 30,
-    backgroundColor: "#fff",
-    padding: 20,
-    borderRadius: 12,
-    elevation: 5,
+    backgroundColor: "#1E293B",
+    borderRadius: 22,
+    padding: 22,
+
+    shadowColor: "#000",
+    shadowOpacity: 0.25,
+    shadowRadius: 15,
+    shadowOffset: {
+      width: 0,
+      height: 10,
+    },
+
+    elevation: 10,
   },
 
   title: {
-    fontSize: 20,
-    fontWeight: "bold",
-    marginBottom: 15,
-    color: "#1565C0",
+    fontSize: 22,
+    fontWeight: "800",
+    color: "#38BDF8",
+    marginBottom: 18,
+  },
+
+  row: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 14,
+    borderBottomWidth: 1,
+    borderBottomColor: "#334155",
+    paddingBottom: 10,
+  },
+
+  label: {
+    color: "#94A3B8",
+    fontSize: 15,
+    fontWeight: "600",
   },
 
   text: {
-    fontSize: 17,
-    marginBottom: 10,
+    color: "#FFF",
+    fontSize: 16,
+    fontWeight: "500",
   },
 });
